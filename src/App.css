@@ -1,0 +1,32 @@
+.admin-panel {
+  background-color: #1e293b;
+  color: white;
+}
+
+.vulnerable-input {
+  /* No input validation or sanitization */
+  border: 1px solid #d1d5db;
+}
+
+.blog-card {
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.comment-section {
+  /* Comments that allow XSS */
+  background-color: #f9fafb;
+}
+
+.admin-action-button {
+  background-color: #ef4444;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.admin-action-button:hover {
+  background-color: #dc2626;
+}

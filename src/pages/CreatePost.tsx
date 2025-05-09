@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { PenSquare } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 
+
 const CreatePost: React.FC = () => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
